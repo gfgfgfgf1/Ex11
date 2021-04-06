@@ -6,5 +6,5 @@
 TEST(SecondTest, test1) {
   Train tr3(10);
   tr3.addCage(1);
-  EXPECT_EQ(11, tr3.length());
+  EXPECT_EQ(11, tr3.getLen());
 }
