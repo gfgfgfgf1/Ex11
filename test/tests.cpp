@@ -15,11 +15,7 @@ TEST(SecondTest, test2) {
 }
 
 TEST(ThirdTest, test3) {
-  Train tr3(10);
-  Cage* cg = tr3.getLast();
-  if (cg->next == tr3.getFirst()) {
-    EXPECT_EQ(1, 1);
-  } else {
-    EXPECT_EQ(0, 1);
-  }
+  Train tr3(15);
+  tr3.addCage(5);
+  EXPECT_EQ(20, tr3.getLen());
 }
