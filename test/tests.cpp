@@ -16,6 +16,6 @@ TEST(SecondTest, test2) {
 
 TEST(ThirdTest, test3) {
   Train tr3(15);
-  tr3.addCage(5);
-  EXPECT_EQ(20, tr3.getLen());
+  tr3.addCage(1);
+  EXPECT_EQ(16, tr3.getLen());
 }
