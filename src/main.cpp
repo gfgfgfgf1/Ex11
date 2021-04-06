@@ -1,10 +1,8 @@
-// Copyright 2021
-#include <iostream>
-#include <string>
-
+// Copyright 2021 DB
 #include "train.h"
 
 int main() {
-  return 0;
+  Train tr1(10);
+  tr1.print();
+  std::cout << '\n' << tr1.getLen() << std::endl;
 }
-
